@@ -40,9 +40,17 @@ namespace BLL
             return databuff.Login(user, password);
 
                 
-      
+        // Pensar en login/logut como abstracto? cambia la imple?
         
         }
+
+
+
+        //Logout?
+
+        //la consigna dice que el admin da de alta. asumimos que puede dar de alta, baja y mod.
+        //este tipo de usuario es el unico que puede hacer esto con los demas tipos de User.
+        //
 
     }
 }

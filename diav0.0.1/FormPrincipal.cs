@@ -28,11 +28,6 @@ namespace diav0._0._1
             //mandar info de los input a BBL
 
             User userbuff = new User();
-
-
-            //Console.WriteLine("us: " + txtbxUser.Text + "Pwd: " + txtbxPassword.Text);
-
-
             int nxtScn =  userbuff.Login(txtbxUser.Text, txtbxPassword.Text);
 
 
