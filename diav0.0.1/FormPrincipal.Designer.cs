@@ -44,6 +44,7 @@ namespace diav0._0._1
             this.txtbxUser.Name = "txtbxUser";
             this.txtbxUser.Size = new System.Drawing.Size(100, 20);
             this.txtbxUser.TabIndex = 0;
+            this.txtbxUser.TextChanged += new System.EventHandler(this.txtbxUser_TextChanged);
             // 
             // lblUser
             // 

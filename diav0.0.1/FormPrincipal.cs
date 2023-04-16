@@ -42,7 +42,18 @@ namespace diav0._0._1
                     }
                 case 2:
                     {
-
+                        FormVendor frmVendor = new FormVendor();
+                        frmVendor.ShowDialog();
+                        break;
+                    }
+                case 3:
+                    {
+                        break;
+                    }
+                case 4:
+                    {
+                        FormManager frmManager = new FormManager();
+                        frmManager.ShowDialog();
                         break;
                     }
                 case -1: 
@@ -57,6 +68,11 @@ namespace diav0._0._1
 
             
 
+
+        }
+
+        private void txtbxUser_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

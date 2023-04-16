@@ -29,29 +29,30 @@ namespace diav0._0._1
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.AddUser = new System.Windows.Forms.Button();
+            this.EditUser = new System.Windows.Forms.Button();
             this.lblTitleAdmin = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.DeleteUser = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // AddUser
             // 
-            this.button1.Location = new System.Drawing.Point(109, 162);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AddUser.Location = new System.Drawing.Point(109, 162);
+            this.AddUser.Name = "AddUser";
+            this.AddUser.Size = new System.Drawing.Size(100, 35);
+            this.AddUser.TabIndex = 0;
+            this.AddUser.Text = "Add user";
+            this.AddUser.UseVisualStyleBackColor = true;
+            this.AddUser.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // EditUser
             // 
-            this.button2.Location = new System.Drawing.Point(253, 162);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.EditUser.Location = new System.Drawing.Point(253, 162);
+            this.EditUser.Name = "EditUser";
+            this.EditUser.Size = new System.Drawing.Size(100, 35);
+            this.EditUser.TabIndex = 1;
+            this.EditUser.Text = "Edit user";
+            this.EditUser.UseVisualStyleBackColor = true;
             // 
             // lblTitleAdmin
             // 
@@ -63,24 +64,24 @@ namespace diav0._0._1
             this.lblTitleAdmin.TabIndex = 2;
             this.lblTitleAdmin.Text = "Administrator Menu";
             // 
-            // button3
+            // DeleteUser
             // 
-            this.button3.Location = new System.Drawing.Point(184, 208);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.DeleteUser.Location = new System.Drawing.Point(184, 208);
+            this.DeleteUser.Name = "DeleteUser";
+            this.DeleteUser.Size = new System.Drawing.Size(100, 35);
+            this.DeleteUser.TabIndex = 3;
+            this.DeleteUser.Text = "Delete user";
+            this.DeleteUser.UseVisualStyleBackColor = true;
             // 
             // FormSysAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(441, 321);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.DeleteUser);
             this.Controls.Add(this.lblTitleAdmin);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.EditUser);
+            this.Controls.Add(this.AddUser);
             this.Name = "FormSysAdmin";
             this.Text = "System Admin";
             this.ResumeLayout(false);
@@ -90,9 +91,9 @@ namespace diav0._0._1
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button AddUser;
+        private System.Windows.Forms.Button EditUser;
         private System.Windows.Forms.Label lblTitleAdmin;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button DeleteUser;
     }
 }
