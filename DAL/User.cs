@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace DAL
 {
@@ -23,6 +24,9 @@ namespace DAL
             string _stock_user = "stock";
             string _stock_password = "stock";
 
+            string _manager = "manager";
+            string _manager_password = "manager";
+
 
             if (user.Equals(_adm_user) && password.Equals(_adm_password)) {
                 return 1;
@@ -36,6 +40,10 @@ namespace DAL
             if (user.Equals(_stock_user) && password.Equals(_stock_password))
             {
                 return 3;
+            }
+            if (user.Equals(_manager) && password.Equals(_manager_password)) 
+            {
+                return 4;
             }
 
 
