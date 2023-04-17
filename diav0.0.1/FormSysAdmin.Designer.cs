@@ -29,30 +29,32 @@ namespace diav0._0._1
         /// </summary>
         private void InitializeComponent()
         {
-            this.AddUser = new System.Windows.Forms.Button();
-            this.EditUser = new System.Windows.Forms.Button();
+            this.btnAddUser = new System.Windows.Forms.Button();
+            this.btnEditUser = new System.Windows.Forms.Button();
             this.lblTitleAdmin = new System.Windows.Forms.Label();
-            this.DeleteUser = new System.Windows.Forms.Button();
+            this.btnDeleteUser = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // AddUser
+            // btnAddUser
             // 
-            this.AddUser.Location = new System.Drawing.Point(109, 162);
-            this.AddUser.Name = "AddUser";
-            this.AddUser.Size = new System.Drawing.Size(100, 35);
-            this.AddUser.TabIndex = 0;
-            this.AddUser.Text = "Add user";
-            this.AddUser.UseVisualStyleBackColor = true;
-            this.AddUser.Click += new System.EventHandler(this.button1_Click);
+            this.btnAddUser.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAddUser.Location = new System.Drawing.Point(95, 142);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(100, 35);
+            this.btnAddUser.TabIndex = 0;
+            this.btnAddUser.Text = "Add user";
+            this.btnAddUser.UseVisualStyleBackColor = true;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
-            // EditUser
+            // btnEditUser
             // 
-            this.EditUser.Location = new System.Drawing.Point(253, 162);
-            this.EditUser.Name = "EditUser";
-            this.EditUser.Size = new System.Drawing.Size(100, 35);
-            this.EditUser.TabIndex = 1;
-            this.EditUser.Text = "Edit user";
-            this.EditUser.UseVisualStyleBackColor = true;
+            this.btnEditUser.Location = new System.Drawing.Point(239, 142);
+            this.btnEditUser.Name = "btnEditUser";
+            this.btnEditUser.Size = new System.Drawing.Size(100, 35);
+            this.btnEditUser.TabIndex = 1;
+            this.btnEditUser.Text = "Edit user";
+            this.btnEditUser.UseVisualStyleBackColor = true;
+            this.btnEditUser.Click += new System.EventHandler(this.btnEditUser_Click);
             // 
             // lblTitleAdmin
             // 
@@ -64,24 +66,25 @@ namespace diav0._0._1
             this.lblTitleAdmin.TabIndex = 2;
             this.lblTitleAdmin.Text = "Administrator Menu";
             // 
-            // DeleteUser
+            // btnDeleteUser
             // 
-            this.DeleteUser.Location = new System.Drawing.Point(184, 208);
-            this.DeleteUser.Name = "DeleteUser";
-            this.DeleteUser.Size = new System.Drawing.Size(100, 35);
-            this.DeleteUser.TabIndex = 3;
-            this.DeleteUser.Text = "Delete user";
-            this.DeleteUser.UseVisualStyleBackColor = true;
+            this.btnDeleteUser.Location = new System.Drawing.Point(170, 188);
+            this.btnDeleteUser.Name = "btnDeleteUser";
+            this.btnDeleteUser.Size = new System.Drawing.Size(100, 35);
+            this.btnDeleteUser.TabIndex = 3;
+            this.btnDeleteUser.Text = "Delete user";
+            this.btnDeleteUser.UseVisualStyleBackColor = true;
+            this.btnDeleteUser.Click += new System.EventHandler(this.btnDeleteUser_Click);
             // 
             // FormSysAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(441, 321);
-            this.Controls.Add(this.DeleteUser);
+            this.Controls.Add(this.btnDeleteUser);
             this.Controls.Add(this.lblTitleAdmin);
-            this.Controls.Add(this.EditUser);
-            this.Controls.Add(this.AddUser);
+            this.Controls.Add(this.btnEditUser);
+            this.Controls.Add(this.btnAddUser);
             this.Name = "FormSysAdmin";
             this.Text = "System Admin";
             this.ResumeLayout(false);
@@ -91,9 +94,9 @@ namespace diav0._0._1
 
         #endregion
 
-        private System.Windows.Forms.Button AddUser;
-        private System.Windows.Forms.Button EditUser;
+        private System.Windows.Forms.Button btnAddUser;
+        private System.Windows.Forms.Button btnEditUser;
         private System.Windows.Forms.Label lblTitleAdmin;
-        private System.Windows.Forms.Button DeleteUser;
+        private System.Windows.Forms.Button btnDeleteUser;
     }
 }

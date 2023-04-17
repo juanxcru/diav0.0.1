@@ -17,7 +17,19 @@ namespace diav0._0._1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+      
+
+        private void btnEditUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDeleteUser_Click(object sender, EventArgs e)
         {
 
         }
