@@ -70,19 +70,22 @@
     <Compile Include="FormSysAdmin.Designer.cs">
       <DependentUpon>FormSysAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPrincipal.cs">
+    <Compile Include="FormIniciarSesion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrincipal.Designer.cs">
-      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    <Compile Include="FormIniciarSesion.Designer.cs">
+      <DependentUpon>FormIniciarSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormManager.resx">
       <DependentUpon>FormManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPrincipal.resx">
-      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="FormIniciarSesion.resx">
+      <DependentUpon>FormIniciarSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSysAdmin.resx">
       <DependentUpon>FormSysAdmin.cs</DependentUpon>
@@ -116,6 +119,10 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{06bd3e20-f4a4-4da6-b882-e619ecef5180}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BUE\BUE.csproj">
+      <Project>{973d67c3-babc-4f07-ad08-27983a8fcf0d}</Project>
+      <Name>BUE</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,7 @@
 ﻿
 namespace diav0._0._1
 {
-    partial class FormPrincipal
+    partial class FormIniciarSesion
     {
         /// <summary>
         /// Required designer variable.
@@ -96,6 +96,7 @@ namespace diav0._0._1
             this.label1.Size = new System.Drawing.Size(139, 29);
             this.label1.TabIndex = 5;
             this.label1.Text = "Login DIA%";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FormPrincipal
             // 

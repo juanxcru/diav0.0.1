@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{06BD3E20-F4A4-4DA6-B882-E619ECEF5180}</ProjectGuid>
+    <ProjectGuid>{973D67C3-BABC-4F07-AD08-27983A8FCF0D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BLL</RootNamespace>
-    <AssemblyName>BLL</AssemblyName>
+    <RootNamespace>BUE</RootNamespace>
+    <AssemblyName>BUE</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,19 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SysAdmin.cs" />
-    <Compile Include="Usuario.cs" />
+    <Compile Include="IEntidad.cs" />
+    <Compile Include="Perfil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BUE\BUE.csproj">
-      <Project>{973d67c3-babc-4f07-ad08-27983a8fcf0d}</Project>
-      <Name>BUE</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DAL\DAL.csproj">
-      <Project>{1090ff19-97bf-4d6e-9de2-fdaaca4e5987}</Project>
-      <Name>DAL</Name>
-    </ProjectReference>
+    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

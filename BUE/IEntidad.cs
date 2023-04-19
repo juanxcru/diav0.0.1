@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace BUE
 {
-    public class SysAdmin : Usuario
+    public interface IEntidad
     {
-
-        //caracteristicas propias y
-        //comportamientos que hacen los sysadmin
+       int ID { get; set; }
     }
 }

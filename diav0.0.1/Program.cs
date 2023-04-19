@@ -16,7 +16,7 @@ namespace diav0._0._1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPrincipal());
+            Application.Run(new FormIniciarSesion());
         }
     }
 }
