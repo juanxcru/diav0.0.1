@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace diav0._0._1
 {
-    public partial class FormVendor : Form
+    public partial class Form2 : Form
     {
-        public FormVendor()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SalesAdm_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
