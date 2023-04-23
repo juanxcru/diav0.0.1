@@ -60,7 +60,8 @@ namespace diav0._0._1
                         }
                     case 4:
                         {
-                            
+                            FormStock frmStock = new FormStock();
+                            frmStock.ShowDialog();
                             break;
                         }
                 }

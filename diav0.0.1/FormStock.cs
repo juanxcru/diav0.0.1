@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace diav0._0._1
 {
-    public partial class Form2 : Form
+    public partial class FormStock : Form
     {
-        public Form2()
+        public FormStock()
         {
             InitializeComponent();
+        }
+
+        private void reports_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

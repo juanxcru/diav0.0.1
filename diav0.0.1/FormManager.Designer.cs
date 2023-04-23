@@ -28,42 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.WeeklyReport = new System.Windows.Forms.Button();
-            this.MonthlyReport = new System.Windows.Forms.Button();
-            this.VendorsReport = new System.Windows.Forms.Button();
+            this.btnSemanal = new System.Windows.Forms.Button();
+            this.btnMensual = new System.Windows.Forms.Button();
+            this.btnVendedores = new System.Windows.Forms.Button();
             this.reports = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // WeeklyReport
+            // btnSemanal
             // 
-            this.WeeklyReport.Location = new System.Drawing.Point(188, 217);
-            this.WeeklyReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.WeeklyReport.Name = "WeeklyReport";
-            this.WeeklyReport.Size = new System.Drawing.Size(100, 28);
-            this.WeeklyReport.TabIndex = 0;
-            this.WeeklyReport.Text = "Semanal";
-            this.WeeklyReport.UseVisualStyleBackColor = true;
-            this.WeeklyReport.Click += new System.EventHandler(this.button1_Click);
+            this.btnSemanal.Location = new System.Drawing.Point(188, 217);
+            this.btnSemanal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSemanal.Name = "btnSemanal";
+            this.btnSemanal.Size = new System.Drawing.Size(100, 28);
+            this.btnSemanal.TabIndex = 0;
+            this.btnSemanal.Text = "Semanal";
+            this.btnSemanal.UseVisualStyleBackColor = true;
+            this.btnSemanal.Click += new System.EventHandler(this.button1_Click);
             // 
-            // MonthlyReport
+            // btnMensual
             // 
-            this.MonthlyReport.Location = new System.Drawing.Point(355, 217);
-            this.MonthlyReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MonthlyReport.Name = "MonthlyReport";
-            this.MonthlyReport.Size = new System.Drawing.Size(100, 28);
-            this.MonthlyReport.TabIndex = 1;
-            this.MonthlyReport.Text = "Mensual";
-            this.MonthlyReport.UseVisualStyleBackColor = true;
+            this.btnMensual.Location = new System.Drawing.Point(355, 217);
+            this.btnMensual.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMensual.Name = "btnMensual";
+            this.btnMensual.Size = new System.Drawing.Size(100, 28);
+            this.btnMensual.TabIndex = 1;
+            this.btnMensual.Text = "Mensual";
+            this.btnMensual.UseVisualStyleBackColor = true;
             // 
-            // VendorsReport
+            // btnVendedores
             // 
-            this.VendorsReport.Location = new System.Drawing.Point(532, 217);
-            this.VendorsReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.VendorsReport.Name = "VendorsReport";
-            this.VendorsReport.Size = new System.Drawing.Size(100, 28);
-            this.VendorsReport.TabIndex = 2;
-            this.VendorsReport.Text = "Vendedores";
-            this.VendorsReport.UseVisualStyleBackColor = true;
+            this.btnVendedores.Location = new System.Drawing.Point(532, 217);
+            this.btnVendedores.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVendedores.Name = "btnVendedores";
+            this.btnVendedores.Size = new System.Drawing.Size(100, 28);
+            this.btnVendedores.TabIndex = 2;
+            this.btnVendedores.Text = "Vendedores";
+            this.btnVendedores.UseVisualStyleBackColor = true;
             // 
             // reports
             // 
@@ -83,10 +83,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(813, 380);
             this.Controls.Add(this.reports);
-            this.Controls.Add(this.VendorsReport);
-            this.Controls.Add(this.MonthlyReport);
-            this.Controls.Add(this.WeeklyReport);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.btnVendedores);
+            this.Controls.Add(this.btnMensual);
+            this.Controls.Add(this.btnSemanal);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormManager";
             this.Text = "Gerente";
             this.Load += new System.EventHandler(this.FormManager_Load);
@@ -97,9 +97,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button WeeklyReport;
-        private System.Windows.Forms.Button MonthlyReport;
-        private System.Windows.Forms.Button VendorsReport;
+        private System.Windows.Forms.Button btnSemanal;
+        private System.Windows.Forms.Button btnMensual;
+        private System.Windows.Forms.Button btnVendedores;
         private System.Windows.Forms.Label reports;
     }
 }
