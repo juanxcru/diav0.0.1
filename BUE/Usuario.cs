@@ -9,13 +9,15 @@ namespace BUE
     public class Usuario : IEntidad
     {
         private int _id;
+        private string _nombreUsuario;
+        private string _password;
+        private Perfil _perfil;
 
         public int ID {
             get { return _id; }
             set { _id = value; }
         }
 
-        private string _nombreUsuario;
 
         public string UserName
         {
@@ -23,7 +25,6 @@ namespace BUE
             set { _nombreUsuario = value; }
         }
 
-        private string _password;
 
         public string Password
         {
@@ -31,7 +32,6 @@ namespace BUE
             set { _password = value; }
         }
 
-        private Perfil _perfil;
 
         public Perfil Perfil
 

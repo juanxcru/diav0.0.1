@@ -33,6 +33,8 @@ namespace diav0._0._1
             if (objUsuario == null)
             {
                 MessageBox.Show("Usuario o clave invalido");
+                txtbxPassword.Text = "";
+                txtbxUser.Text = "";
             }
             else
             {
