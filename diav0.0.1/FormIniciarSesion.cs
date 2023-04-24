@@ -22,7 +22,7 @@ namespace diav0._0._1
 
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnLogin_Click_1(object sender, EventArgs e)
         {
             BUE.Usuario objUsuario = new BUE.Usuario();
             BLL.Usuario gestorUsuario = new BLL.Usuario();
@@ -76,19 +76,5 @@ namespace diav0._0._1
 
         }
 
-        private void txtbxUser_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblPassword_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
