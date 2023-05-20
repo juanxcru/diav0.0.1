@@ -36,6 +36,7 @@
             // 
             // btnSemanal
             // 
+<<<<<<< HEAD
             this.btnSemanal.Location = new System.Drawing.Point(188, 217);
             this.btnSemanal.Margin = new System.Windows.Forms.Padding(4);
             this.btnSemanal.Name = "btnSemanal";
@@ -44,9 +45,20 @@
             this.btnSemanal.Text = "Semanal";
             this.btnSemanal.UseVisualStyleBackColor = true;
             this.btnSemanal.Click += new System.EventHandler(this.button1_Click);
+=======
+            this.WeeklyReport.Location = new System.Drawing.Point(188, 217);
+            this.WeeklyReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.WeeklyReport.Name = "WeeklyReport";
+            this.WeeklyReport.Size = new System.Drawing.Size(100, 28);
+            this.WeeklyReport.TabIndex = 0;
+            this.WeeklyReport.Text = "Semanal";
+            this.WeeklyReport.UseVisualStyleBackColor = true;
+            this.WeeklyReport.Click += new System.EventHandler(this.button1_Click);
+>>>>>>> fff9d15e0e03e44deb0ffe191ab5be69a1de5560
             // 
             // btnMensual
             // 
+<<<<<<< HEAD
             this.btnMensual.Location = new System.Drawing.Point(355, 217);
             this.btnMensual.Margin = new System.Windows.Forms.Padding(4);
             this.btnMensual.Name = "btnMensual";
@@ -54,9 +66,19 @@
             this.btnMensual.TabIndex = 1;
             this.btnMensual.Text = "Mensual";
             this.btnMensual.UseVisualStyleBackColor = true;
+=======
+            this.MonthlyReport.Location = new System.Drawing.Point(355, 217);
+            this.MonthlyReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MonthlyReport.Name = "MonthlyReport";
+            this.MonthlyReport.Size = new System.Drawing.Size(100, 28);
+            this.MonthlyReport.TabIndex = 1;
+            this.MonthlyReport.Text = "Mensual";
+            this.MonthlyReport.UseVisualStyleBackColor = true;
+>>>>>>> fff9d15e0e03e44deb0ffe191ab5be69a1de5560
             // 
             // btnVendedores
             // 
+<<<<<<< HEAD
             this.btnVendedores.Location = new System.Drawing.Point(532, 217);
             this.btnVendedores.Margin = new System.Windows.Forms.Padding(4);
             this.btnVendedores.Name = "btnVendedores";
@@ -64,6 +86,15 @@
             this.btnVendedores.TabIndex = 2;
             this.btnVendedores.Text = "Vendedores";
             this.btnVendedores.UseVisualStyleBackColor = true;
+=======
+            this.VendorsReport.Location = new System.Drawing.Point(532, 217);
+            this.VendorsReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.VendorsReport.Name = "VendorsReport";
+            this.VendorsReport.Size = new System.Drawing.Size(100, 28);
+            this.VendorsReport.TabIndex = 2;
+            this.VendorsReport.Text = "Vendedores";
+            this.VendorsReport.UseVisualStyleBackColor = true;
+>>>>>>> fff9d15e0e03e44deb0ffe191ab5be69a1de5560
             // 
             // reports
             // 
@@ -83,12 +114,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(813, 380);
             this.Controls.Add(this.reports);
+<<<<<<< HEAD
             this.Controls.Add(this.btnVendedores);
             this.Controls.Add(this.btnMensual);
             this.Controls.Add(this.btnSemanal);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormManager";
             this.Text = "Gerente";
+=======
+            this.Controls.Add(this.VendorsReport);
+            this.Controls.Add(this.MonthlyReport);
+            this.Controls.Add(this.WeeklyReport);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "FormManager";
+            this.Text = "GERENTE";
+>>>>>>> fff9d15e0e03e44deb0ffe191ab5be69a1de5560
             this.Load += new System.EventHandler(this.FormManager_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

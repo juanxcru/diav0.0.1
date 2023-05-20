@@ -1,6 +1,10 @@
 ﻿namespace diav0._0._1
 {
+<<<<<<< HEAD
     partial class FormStock
+=======
+    partial class Form2
+>>>>>>> fff9d15e0e03e44deb0ffe191ab5be69a1de5560
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +32,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.reports = new System.Windows.Forms.Label();
             this.btnCrearArticulo = new System.Windows.Forms.Button();
             this.btnModificarArticulo = new System.Windows.Forms.Button();
@@ -115,5 +120,14 @@
         private System.Windows.Forms.Button btnModificarArticulo;
         private System.Windows.Forms.Button btnGestionarStock;
         private System.Windows.Forms.Button btnGenerarAlerta;
+=======
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form2";
+        }
+
+        #endregion
+>>>>>>> fff9d15e0e03e44deb0ffe191ab5be69a1de5560
     }
 }
