@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
+
 namespace diav0._0._1
 {
     public partial class FormIniciarSesion : Form
@@ -22,7 +25,7 @@ namespace diav0._0._1
 
         }
 
-        private void btnLogin_Click_1(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             BUE.Usuario objUsuario = new BUE.Usuario();
             BLL.Usuario gestorUsuario = new BLL.Usuario();
@@ -76,5 +79,22 @@ namespace diav0._0._1
 
         }
 
+        private void btnOcultarPswd_Click(object sender, EventArgs e)
+        {
+            if (txtbxPassword.PasswordChar == '\0')
+            {
+                btnMostrarPsswd.BringToFront();
+                txtbxPassword.PasswordChar = '*';
+            }
+        }
+
+        private void btnMostrarPsswd_Click(object sender, EventArgs e)
+        {
+            if (txtbxPassword.PasswordChar == '*')
+            {
+                btnOcultarPswd.BringToFront();
+                txtbxPassword.PasswordChar = '\0';
+            }
+        }
     }
 }
